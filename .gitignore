@@ -1,0 +1,9 @@
+/build
+/build_doc
+/build-*
+/output
+/.vscode
+/.gradle
+*.tmp
+*.local
+*_version.h
