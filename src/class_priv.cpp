@@ -16,8 +16,6 @@
 // NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
 // See Apache v2.0 for more details.
 
-// Created by peizhe.chen on 11/13/2021
-
 #include "class_priv.h"
 
 namespace MyTest {
@@ -31,7 +29,7 @@ ClassPriv::ClassPriv() {
   Priv::AddPI(3.1415926, this);
 }
 
-double ClassPriv::GetPI() {
+double ClassPriv::GetPI() const {
   return PI;
 }
 

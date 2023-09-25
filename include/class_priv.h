@@ -1,4 +1,4 @@
-// Copyright (c) [2021-2022] [Horizon Robotics][Horizon Bole].
+// Copyright (c) [2021-2022]
 // 
 // From: https://yairchu.github.io/posts/the-priv-idiom
 // 

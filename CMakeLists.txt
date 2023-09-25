@@ -54,7 +54,7 @@ message(
   STATUS "my-test Version: ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}")
 
 configure_file(${CMAKE_SOURCE_DIR}/src/test_version.txt
-               ${CMAKE_SOURCE_DIR}/src/version/test.h @ONLY)
+               ${CMAKE_SOURCE_DIR}/src/version/version.h @ONLY)
 
 set(SHARED_LIB my-test)
 set(STATIC_LIB my-test-static)
